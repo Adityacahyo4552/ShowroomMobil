@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Exo', sans-serif;
+}
+
+.box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+    font-family:  'Exo', sans-serif;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    background:rgba(0, 0, 0, 0.7);
+    padding: 5%;
+    width: 85rem;
+    border-bottom: 1.50px solid #ffffff;
+    border-top: 1.50px solid #ffffff;
+}
+
+.wrapper{
+    width: 100%;
+    margin-top: 20rem;
+}
+.carousel{
+    max-width: 200rem;
+    margin: auto;
+    padding: 0 30px;
+}
+.carousel .card{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.title {
+    position: absolute;
+}
+.title h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 60px;
+}
+.title h2 {
+    margin-left: 65rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight:bold;
+}
+.title i {
+    margin-left: 78rem;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.car {
+    margin-left: 100px;
+    margin-top: 250px;
+    text-align:center;
+    color: white;
+    transform: translate(-50%, -50%);
+    background:rgba(0, 0, 0, 0.7);
+    width: 130px;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 1.50px solid #ffffff;
+}
+.car h5 {
+    font-family: 'Exo', sans-serif;
+    font-size: medium;
+    margin-top: 30px;
+}
+.car a {
+    font-family: 'Trebuchet MS';
+    font-size:x-small;
+    color: red;
+}
+.share_vehicle {
+    position: absolute;
+    top: 140%;
+    left: 85%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background:rgba(0, 0, 0, 0.7);
+    width: 350px;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 1.50px solid #ffffff;
+}
+.share_vehicle p {
+    position: fixed;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 0rem;
+}
+.share_vehicle i {
+    margin-top: 5px;
+    margin-left: 50px;
+    padding-bottom: 40rem;
+
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: -10px;
+}
+.owl-dot{
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #0072bc!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #0072bc!important;
+}
+
+.vehicle_title {
+    position: absolute;
+    top: 0rem;
+    left: 0px;
+    cursor: pointer;
+    color: white;
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    width: 100vh;
+    border-bottom: 2.50px solid #ffffff96;
+}
+.vehicle_title a {
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.vehicle table {
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.vehicle td {
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-size: 17px;
+    word-spacing: 2px;
+}
+.vehicle  {
+    position: absolute;
+    top: 65rem;
+    left: 70px;
+    color: white;
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 5%;
+    width: 110vh;
+    box-shadow: 0 0 2px 2px #ffffffb6;
+}
+
+.vehicle1_title {
+    position: absolute;
+    top: 0rem;
+    margin-left: 100px;
+    cursor: pointer;
+    color: white;
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    width: 80vh;
+    border-left: 2.50px solid #ffffff96;
+    border-bottom: 2.50px solid #ffffff96;
+}
+.vehicle1_title a {
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.vehicle1 table {
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.vehicle1 td {
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-size: 17px;
+    word-spacing: 2px;
+}
+.vehicle1 {
+    position: absolute;
+    top: 65rem;
+    left: 70px;
+    color: white;
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 5%;
+    width: 110vh;
+    box-shadow: 0 0 2px 2px #ffffffb6;
+}
+
+
